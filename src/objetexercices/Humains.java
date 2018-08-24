@@ -6,14 +6,12 @@ public class Humains extends Vivantapattes { //classe fille héritée de la classe
 	
 			
 			private String name; // re attributs - variables
-			
 			private String job;
 	
 public Humains(int nombredepattes, String name, String surname, String job,String nourriture,String marcher) { // comme dans classe mere contenu souhaiter
-	super (nombredepattes,surname,nourriture,marcher); // rappele ce qui est dans la classe mere
+				super (nombredepattes,surname,nourriture,marcher); // rappele ce qui est dans la classe mere
 	
 		this.name= name;
-		
 		this.job=job;
 }
 

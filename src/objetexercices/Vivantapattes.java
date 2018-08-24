@@ -1,13 +1,13 @@
 package objetexercices; 
 
 public class Vivantapattes {  // classe mere
+//Salut c'est un comm
 
-
-	private String surname;      // attribut - variables
-	private	int nombredepattes ;
-	private String nourriture;
-	private String marcher;
-	public Vivantapattes(int nombredepattes, String surname, String nourriture, String marcher) { // declare tout ce que va contenir notre classe mere
+		private String surname;      // attribut - variables
+		private	int nombredepattes ;
+		private String nourriture;
+		private String marcher;
+	public Vivantapattes(int nombredepattes, String surname, String nourriture, String marcher) { // ça c'est le CONSTRUCTEUr sans lui il n'y a rien declare tout ce que va contenir notre classe mere
 	
 		 this.setSurname(surname); // ça je ne sais pas encore comment l'expliquer
 		 this.setNombredepattes(nombredepattes);
